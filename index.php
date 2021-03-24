@@ -3,7 +3,7 @@
 <?php require "template-parts/layouts/header.php"; ?>
 
 <!--ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY-->
-
+<?php require "template-parts/layouts/block01.php"; ?>
 <!--/ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY-->
 
 <!--GIẢI THƯỞNG, DANH HIỆU ĐẠI HỌC FPT ĐẠT ĐƯỢC-->
