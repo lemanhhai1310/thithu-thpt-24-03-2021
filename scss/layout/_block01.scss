@@ -22,10 +22,32 @@
     @extend .fz-18;
     background: $color1 !important;
     color: rgba(#fff,1) !important;
-    .block04 &{
-      margin-bottom: -60px;
-      @include media-breakpoint-up('m'){
-        margin-bottom: -94px;
+    line-height: 35px;
+    $x: 10px;
+    $y: 1px;
+    clip-path: polygon(#{$x} 0%, 100% 0, 100% calc(100% - #{$x}), calc(100% - #{$x}) 100%, 0 100%, 0 #{$x});
+    position: relative;
+    &__box1{
+      &:before,&:after{
+        content: "";
+        position: absolute;
+        //background-color: $color3;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        z-index: 10;
+      }
+      &:before{
+        top: #{$y};
+        left: #{$y};
+        border-width: calc(#{$x} - #{$y}) calc(#{$x} - #{$y}) 0 0;
+        border-color: $color4 transparent transparent transparent;
+      }
+      &:after{
+        bottom: #{$y};
+        right: #{$y};
+        border-width: 0 0 calc(#{$x} - #{$y}) calc(#{$x} - #{$y});
+        border-color: transparent transparent $color4 transparent;
       }
     }
   }

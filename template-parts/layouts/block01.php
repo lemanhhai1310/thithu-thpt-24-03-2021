@@ -8,8 +8,8 @@ $date = strtotime("+7 day", $date);
 ?>
 <div class="uk-section block01 uk-light" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animation; delay: 300; repeat: false">
     <div class="uk-container uk-container-small">
-        <h2 class="block01__title mb-25 mb-30-m uk-h2 uk-text-center uk-text-uppercase"><span>ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY</span></h2>
-        <div class="mb-24 uk-flex-center" uk-grid>
+        <h2 class="block01__title mb-20 mb-27-m uk-h2 uk-text-center uk-text-uppercase"><span>ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY</span></h2>
+        <div class="mb-20 mb-26-m uk-flex-center" uk-grid>
             <div class="uk-width-3-5@m">
                 <div class="uk-padding-small block01__boxCountdown uk-border-rounded">
                     <div class="uk-grid-small uk-child-width-auto uk-flex-center" uk-grid uk-countdown="date: <?php echo date('Y-m-d\TH:i:s.uP', $date); ?>">
@@ -92,7 +92,9 @@ $date = strtotime("+7 day", $date);
             </div>
         </div>
         <div class="uk-text-center">
-            <button type="button" class="uk-button animation block01__btnSubmit uk-button-secondary uk-border-pill">ĐĂNG KÝ</button>
+            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
+            </div>
         </div>
     </div>
 </div>
