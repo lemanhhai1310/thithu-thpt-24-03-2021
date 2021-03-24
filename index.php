@@ -2,6 +2,73 @@
 <?php $is_home = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 
+<!--CON SỐ ẤN TƯỢNG VỀ ĐẠI HỌC FPT-->
+<div class="home__block02 uk-background-norepeat uk-light uk-position-relative uk-background-cover uk-background-center-center" data-src="images/ARTS1218.jpg" uk-img>
+    <div class="uk-position-cover uk-overlay uk-overlay-primary"></div>
+    <div class="uk-position-relative uk-position-z-index uk-section">
+        <div class="uk-container uk-container-small">
+            <div class="mb-20 mb-60-m">
+                <h2 class="uk-h2 home__title uk-margin-remove uk-text-center uk-text-uppercase">CON SỐ ẤN TƯỢNG VỀ ĐẠI HỌC FPT</h2>
+            </div>
+            <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small uk-grid-62-m" uk-grid>
+                <div>
+                    <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                        <canvas width="300" height="300"></canvas>
+                        <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                            <div>
+                                <div class="home__block02__box1__txt1">100%</div>
+                                <div class="home__block02__box1__txt2">
+                                    SINH VIÊN <br> <span>LÀM VIỆC THỰC TẾ</span> <br> TỪ NĂM THỨ 3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                        <canvas width="300" height="300"></canvas>
+                        <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                            <div>
+                                <div class="home__block02__box1__txt1">100%</div>
+                                <div class="home__block02__box1__txt2">
+                                    CÓ CƠ HỘI <br> TRẢI NGHIỆM <br> <span>HỌC KỲ Ở NƯỚC NGOÀI</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                        <canvas width="300" height="300"></canvas>
+                        <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                            <div>
+                                <div class="home__block02__box1__txt1">100%</div>
+                                <div class="home__block02__box1__txt2">
+                                    SINH VIÊN <br> <span>HỌC TẬP BẰNG <br> TIẾNG ANH</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                        <canvas width="300" height="300"></canvas>
+                        <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                            <div>
+                                <div class="home__block02__box1__txt1">100%</div>
+                                <div class="home__block02__box1__txt2">
+                                    SINH VIÊN ĐƯỢC <br> <span>NHÀ <br> TUYỂN DỤNG <br> CHÀO ĐÓN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/CON SỐ ẤN TƯỢNG VỀ ĐẠI HỌC FPT-->
+
 <!--ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY-->
 <?php require "template-parts/layouts/block01.php"; ?>
 <!--/ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY-->
@@ -88,7 +155,11 @@ số 1 năm 2020)',
 
             </div>
             <div class="uk-width-1-3@m">
-                <img class="animation" src="images/Layer1.png" alt="">
+                <div class="uk-flex-center" uk-grid>
+                    <div class="uk-width-3-5 uk-width-1-1@m">
+                        <img class="animation" src="images/Layer1.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

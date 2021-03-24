@@ -6,7 +6,7 @@ $date = strtotime($date);
 $date = strtotime("+7 day", $date);
 //echo date('Y-m-d\TH:i:s.uP', $date);
 ?>
-<div class="uk-section block01 uk-light" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animation; delay: 300; repeat: false">
+<div class="uk-section-small block01 uk-light" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animation; delay: 300; repeat: false">
     <div class="uk-container uk-container-small">
         <h2 class="block01__title mb-20 mb-27-m uk-h2 uk-text-center uk-text-uppercase"><span>ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY</span></h2>
         <div class="mb-20 mb-26-m uk-flex-center" uk-grid>

@@ -56,4 +56,32 @@
       }
     }
   }
+  &__block02{
+    &__box1{
+      background-color: $color1;
+      color: #fff;
+      $x: 10px;
+      border-radius: #{$x};
+      @include media-breakpoint-up('m'){
+        $x: 25px;
+        border-radius: #{$x};
+      }
+      &__txt1{
+        font-family: $font-Verdana-Bold;
+        color: #ffffff;
+        @extend .fz-42;
+        line-height: (33/41.7);
+        margin-bottom: 7px;
+      }
+      &__txt2{
+        line-height: 1.2;
+        @extend .fz-16;
+        font-family: $font-Verdana;
+        span{
+          @extend .fz-20;
+          font-family: $font-Verdana-Bold;
+        }
+      }
+    }
+  }
 }
