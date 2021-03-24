@@ -10,3 +10,41 @@
   font-weight:normal;
   font-style:normal;
 }
+/**
+ * --------------------------------------------------------------------
+ * Verdana
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Verdana Regular';
+  font-display: auto;
+  src:local('Verdana Regular'), url('fonts/Fonts/Verdana.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Verdana Bold';
+  font-display: auto;
+  src:local('Verdana Bold'), url('fonts/Fonts/Verdana-Bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
+ * Roboto
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Roboto Regular';
+  font-display: auto;
+  src:local('Roboto Regular'), url('fonts/Fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Roboto Bold Italic';
+  font-display: auto;
+  src:local('Roboto Bold Italic'), url('fonts/Fonts/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}

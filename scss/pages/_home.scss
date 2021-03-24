@@ -1,0 +1,39 @@
+.home{
+  &__title{
+    @extend .fz-30;
+    font-family: $font-Verdana-Bold;
+    color: $color1;
+    line-height: (36/30);
+  }
+  &__block01{
+    &__box1{
+      &__img{
+        @include media-breakpoint-up('m'){
+          min-height: 231px;
+        }
+      }
+      &__title{
+        font-family: $font-Verdana-Bold;
+        color: $color1;
+        &.fz1{
+          @extend .fz-29;
+          line-height: (22/28.7);
+        }
+        &.fz2{
+          @extend .fz-20;
+          line-height: (23.5/19.6);
+        }
+        &.fz3{
+          @extend .fz-36;
+          line-height: (27/35.9);
+        }
+      }
+      &__desc{
+        font-family: $font-Verdana;
+        @extend .fz-16;
+        line-height: (73/64);
+        color: #000000;
+      }
+    }
+  }
+}
