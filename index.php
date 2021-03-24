@@ -80,4 +80,10 @@ số 1 năm 2020)',
 </div>
 <!--/GIẢI THƯỞNG, DANH HIỆU ĐẠI HỌC FPT ĐẠT ĐƯỢC-->
 
+<!--top50-->
+<div class="uk-overflow-hidden uk-height-medium uk-background-norepeat uk-background-top-center" style="min-height: 442px" data-src="images/bg1.png" uk-img>
+
+</div>
+<!--/top50-->
+
 <?php require "template-parts/layouts/footer.php"; ?>
