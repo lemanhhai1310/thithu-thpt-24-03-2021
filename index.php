@@ -81,8 +81,17 @@ số 1 năm 2020)',
 <!--/GIẢI THƯỞNG, DANH HIỆU ĐẠI HỌC FPT ĐẠT ĐƯỢC-->
 
 <!--top50-->
-<div class="uk-overflow-hidden uk-height-medium uk-background-norepeat uk-background-top-center" style="min-height: 442px" data-src="images/bg1.png" uk-img>
+<div uk-scrollspy="cls: uk-animation-slide-bottom; target: .animation; delay: 300; repeat: false" class="uk-section uk-padding-remove-bottom uk-overflow-hidden uk-height-medium uk-background-norepeat uk-background-top-center" style="min-height: 442px" data-src="images/bg1.png" uk-img>
+    <div class="uk-container uk-container-small">
+        <div class="" uk-grid>
+            <div class="uk-width-expand">
 
+            </div>
+            <div class="uk-width-1-3@m">
+                <img class="animation" src="images/Layer1.png" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 <!--/top50-->
 
