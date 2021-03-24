@@ -42,6 +42,13 @@
   font-style:normal;
 }
 @font-face{
+  font-family:'Roboto Black';
+  font-display: auto;
+  src:local('Roboto Black'), url('fonts/Fonts/Roboto-Black.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
   font-family:'Roboto Bold Italic';
   font-display: auto;
   src:local('Roboto Bold Italic'), url('fonts/Fonts/Roboto-BoldItalic.ttf') format('truetype');
