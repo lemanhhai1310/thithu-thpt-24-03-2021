@@ -2,6 +2,46 @@
 <?php $is_home = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 
+<div class="uk-background-norepeat uk-background-cover" uk-height-viewport="offset-bottom: true" data-src="images/bg01.png" uk-img>
+    <div class="uk-container uk-container-small">
+        <div class="uk-text-center mb-20 mb-38-m">
+            <img src="images/logo1.png" alt="">
+        </div>
+        <div class="uk-child-width-1-2@m uk-flex-between@m uk-flex-middle" uk-grid>
+            <div class="uk-width-expand">
+                <div class="uk-flex-center mb-20 mb-25-m" uk-grid>
+                    <div class="uk-width-2-3 uk-width-3-5@m">
+                        <div class="uk-text-center">
+                            <img src="images/_Image_.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-flex-center uk-margin-remove-top" uk-grid>
+                    <div class="uk-width-auto">
+                        <ul class="uk-list uk-margin-remove home__block04__list">
+                            <li>Đề thi thử THPT môn Toán</li>
+                            <li>Đề thi thử THPT môn Vật Lý</li>
+                            <li>Đề thi thử THPT môn Hoá Học</li>
+                            <li>Đề thi thử THPT môn Sinh Học</li>
+                            <li>Đề thi thử THPT môn Anh Văn</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-text-center">
+                    <img src="images/bg02.png" alt="">
+                </div>
+            </div>
+            <div class="uk-width-2-5@m">
+                <div class="uk-position-relative">
+                    <div class="uk-card uk-card-default uk-card-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--ĐỀ THI DO THÂY CÔ TRƯỜNGCHUYÊN VĨNH PHÚC - VĨNH PHÚC BIÊN SOẠN-->
 <div class="uk-section-small home__block03 uk-light">
     <div class="uk-container">

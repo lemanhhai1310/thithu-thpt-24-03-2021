@@ -98,4 +98,14 @@
       }
     }
   }
+  &__block04{
+    &__list{
+      >li{
+        margin: 0 !important;
+        @extend .fz-18;
+        color: #000;
+        font-family: $font-Verdana-Bold;
+      }
+    }
+  }
 }
