@@ -107,7 +107,44 @@
         font-family: $font-Verdana-Bold;
       }
     }
+    &__box2{
+      $x: 50px;
+      $y: 5px;
+      &:before,&:after{
+        content: "";
+        position: absolute;
+        //background-color: $color3;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        z-index: 10;
+      }
+      &:before{
+        top: #{$y};
+        left: #{$y};
+        border-width: calc(#{$x} - #{$y}) calc(#{$x} - #{$y}) 0 0;
+        border-color: $color4 transparent transparent transparent;
+        .home__block03 &{
+          border-color: #000000 transparent transparent transparent;
+        }
+      }
+      &:after{
+        bottom: #{$y};
+        right: #{$y};
+        border-width: 0 0 calc(#{$x} - #{$y}) calc(#{$x} - #{$y});
+        border-color: transparent transparent $color4 transparent;
+        .home__block03 &{
+          border-color: transparent transparent #000000 transparent;
+        }
+      }
+    }
     &__box1{
+      $x: 50px;
+      clip-path: polygon(#{$x} 0%, 100% 0, 100% calc(100% - #{$x}), calc(100% - #{$x}) 100%, 0 100%, 0 #{$x});
+      @include media-breakpoint-up('m'){
+        $x: 50px;
+        clip-path: polygon(#{$x} 0%, 100% 0, 100% calc(100% - #{$x}), calc(100% - #{$x}) 100%, 0 100%, 0 #{$x});
+      }
       &__title{
         color: $color1;
         font-family: $font-Verdana-Bold;
@@ -129,6 +166,17 @@
         color: #666666;
         font-family: $font-Roboto;
       }
+    }
+  }
+  &__block05{
+    &__box1{
+      @include media-breakpoint-down('s'){
+        padding-top: 130px;
+      }
+    }
+    @include media-breakpoint-down('s'){
+      background-image: url(images/bg1_m.png) !important;
+      background-size: cover;
     }
   }
 }

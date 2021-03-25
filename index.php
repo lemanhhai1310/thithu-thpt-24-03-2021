@@ -33,8 +33,8 @@
             </div>
             <div class="uk-width-2-5@m">
                 <div class="uk-section-xsmall uk-padding-remove-top">
-                    <div class="uk-position-relative">
-                        <div class="uk-card uk-card-default uk-card-body">
+                    <div class="uk-position-relative home__block04__box2">
+                        <div class="uk-card uk-card-default uk-card-body home__block04__box1">
                             <form>
                                 <fieldset class="uk-fieldset">
                                     <legend class="uk-legend uk-text-center home__block04__box1__title">ĐĂNG KÝ THI THỬ</legend>
@@ -60,6 +60,11 @@
                                                 <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Sinh Học</span></label>
                                                 <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Văn</span></label>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-text-center">
+                                        <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                            <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
                                         </div>
                                     </div>
                                 </fieldset>
@@ -277,16 +282,24 @@ số 1 năm 2020)',
 <!--/GIẢI THƯỞNG, DANH HIỆU ĐẠI HỌC FPT ĐẠT ĐƯỢC-->
 
 <!--top50-->
-<div uk-scrollspy="cls: uk-animation-slide-bottom; target: .animation; delay: 300; repeat: true" class="uk-section uk-padding-remove-bottom uk-overflow-hidden uk-height-medium uk-background-norepeat uk-background-top-center" style="min-height: 442px" data-src="images/bg1.png" uk-img>
-    <div class="uk-container uk-container-small">
-        <div class="" uk-grid>
-            <div class="uk-width-expand">
-
-            </div>
-            <div class="uk-width-1-3@m">
-                <div class="uk-flex-center" uk-grid>
-                    <div class="uk-width-3-5 uk-width-1-1@m">
-                        <img class="animation" src="images/Layer1.png" alt="">
+<div uk-scrollspy="cls: uk-animation-slide-bottom; target: .animation; delay: 300; repeat: true" uk-toggle="cls: uk-flex-bottom; mode: media; media: @m" class="home__block05 uk-section uk-flex uk-padding-remove-bottom uk-overflow-hidden uk-background-norepeat uk-background-top-center uk-background-image@m" style="min-height: 442px" data-src="images/bg1.png" uk-img>
+    <div class="uk-width-1-1">
+        <div class="uk-container uk-container-small">
+            <div class="uk-flex-bottom" uk-grid>
+                <div class="uk-width-expand">
+                    <div class="uk-text-center home__block05__box1" uk-toggle="cls: uk-section-small; mode: media; media: @m">
+                        <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                            <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m">
+                    <div class="uk-flex-center" uk-grid>
+                        <div class="uk-width-3-5 uk-width-1-1@m">
+                            <div class="uk-position-relative uk-visible@m">
+                                <img class="animation" uk-toggle="cls: uk-position-bottom; mode: media; media: @m" style="bottom: -89px;" src="images/Layer1.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
