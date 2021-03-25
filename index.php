@@ -7,7 +7,7 @@
         <div class="uk-text-center mb-20 mb-38-m">
             <img src="images/logo1.png" alt="">
         </div>
-        <div class="uk-child-width-1-2@m uk-flex-between@m uk-flex-middle" uk-grid>
+        <div class="uk-child-width-1-2@m uk-flex-between@m" uk-grid>
             <div class="uk-width-expand">
                 <div class="uk-flex-center mb-20 mb-25-m" uk-grid>
                     <div class="uk-width-2-3 uk-width-3-5@m">
@@ -32,9 +32,39 @@
                 </div>
             </div>
             <div class="uk-width-2-5@m">
-                <div class="uk-position-relative">
-                    <div class="uk-card uk-card-default uk-card-body">
-
+                <div class="uk-section-xsmall uk-padding-remove-top">
+                    <div class="uk-position-relative">
+                        <div class="uk-card uk-card-default uk-card-body">
+                            <form>
+                                <fieldset class="uk-fieldset">
+                                    <legend class="uk-legend uk-text-center home__block04__box1__title">ĐĂNG KÝ THI THỬ</legend>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__block04__box1__input" type="text" placeholder="Họ và tên">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__block04__box1__input" type="text" placeholder="Điện thoại">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__block04__box1__input" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <input class="uk-input home__block04__box1__input" type="text" placeholder="Tỉnh / Thành phố">
+                                    </div>
+                                    <div class="uk-margin-small">
+                                        <label class="uk-form-label home__block04__box1__label" for="form-stacked-text">Môn học đăng ký thi thử</label>
+                                        <div class="uk-form-controls">
+                                            <div class="uk-grid-10 uk-child-width-1-3 uk-grid">
+                                                <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Toán</span></label>
+                                                <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Vật Lý</span></label>
+                                                <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Hoá Học</span></label>
+                                                <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Sinh Học</span></label>
+                                                <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Văn</span></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

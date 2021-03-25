@@ -107,5 +107,28 @@
         font-family: $font-Verdana-Bold;
       }
     }
+    &__box1{
+      &__title{
+        color: $color1;
+        font-family: $font-Verdana-Bold;
+        @extend .fz-20;
+        line-height: (21/20);
+      }
+      &__label{
+        @extend .fz-16;
+        color: #666666;
+        font-family: $font-Roboto;
+      }
+      &__input{
+        @extend .fz-16;
+        color: #666666;
+        font-family: $font-Roboto;
+      }
+      &__txt{
+        @extend .fz-16;
+        color: #666666;
+        font-family: $font-Roboto;
+      }
+    }
   }
 }
