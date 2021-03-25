@@ -2,6 +2,65 @@
 <?php $is_home = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 
+<!--ĐỀ THI DO THÂY CÔ TRƯỜNGCHUYÊN VĨNH PHÚC - VĨNH PHÚC BIÊN SOẠN-->
+<div class="uk-section-small home__block03 uk-light">
+    <div class="uk-container">
+        <div class="mb-20 mb-47-m">
+            <h2 class="uk-h2 home__title uk-margin-remove uk-text-center uk-text-uppercase">ĐỀ THI DO THÂY CÔ TRƯỜNG
+                <br class="uk-visible@m"> CHUYÊN VĨNH PHÚC - VĨNH PHÚC BIÊN SOẠN</h2>
+        </div>
+        <div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-5@m uk-flex-center uk-grid-small uk-grid-60-m" uk-grid>
+            <?php
+            $data = array(
+                array(
+                    'src' => 'images/monhoc/img1.png',
+                    'title' => 'TOÁN',
+                    'desc' => '',
+                ),
+                array(
+                    'src' => 'images/monhoc/img2.png',
+                    'title' => 'VẬT LÝ',
+                    'desc' => '',
+                ),
+                array(
+                    'src' => 'images/monhoc/img3.png',
+                    'title' => 'HOÁ HỌC',
+                    'desc' => '',
+                ),
+                array(
+                    'src' => 'images/monhoc/img4.png',
+                    'title' => 'SINH HỌC',
+                    'desc' => '',
+                ),
+                array(
+                    'src' => 'images/monhoc/img5.png',
+                    'title' => 'ANH VĂN',
+                    'desc' => '',
+                ),
+            );
+            foreach ($data as $k => $v): ?>
+            <div class="home__block03__column">
+                <div class="uk-text-center home__block03__box1">
+                    <div class="mb-5">
+                        <div class="uk-cover-container uk-display-inline-block uk-border-circle">
+                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                            <canvas width="166" height="166"></canvas>
+                        </div>
+                    </div>
+                    <div class="uk-text-uppercase mb-9 home__block03__box1__title"><?= $v['title'] ?></div>
+                    <div>
+                        <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                            <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ VÀO THI</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+</div>
+<!--/ĐỀ THI DO THÂY CÔ TRƯỜNGCHUYÊN VĨNH PHÚC - VĨNH PHÚC BIÊN SOẠN-->
+
 <!--CON SỐ ẤN TƯỢNG VỀ ĐẠI HỌC FPT-->
 <div class="home__block02 uk-background-norepeat uk-light uk-position-relative uk-background-cover uk-background-center-center" data-src="images/ARTS1218.jpg" uk-img>
     <div class="uk-position-cover uk-overlay uk-overlay-primary"></div>

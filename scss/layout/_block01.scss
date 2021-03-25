@@ -21,6 +21,24 @@
     font-family: $font-Verdana;
     @extend .fz-18;
     background: $color1 !important;
+    .home__block03__column:nth-child(1) &{
+      background: #8b211e !important;
+    }
+    .home__block03__column:nth-child(2) &{
+      background: #861b47 !important;
+    }
+    .home__block03__column:nth-child(3) &{
+      background: #1b95a2 !important;
+    }
+    .home__block03__column:nth-child(4) &{
+      background: #fdbc00 !important;
+    }
+    .home__block03__column:nth-child(5) &{
+      background: #223c72 !important;
+    }
+    .home__block03 &{
+      padding: 0 5px;
+    }
     color: rgba(#fff,1) !important;
     line-height: 35px;
     $x: 10px;
@@ -42,12 +60,18 @@
         left: #{$y};
         border-width: calc(#{$x} - #{$y}) calc(#{$x} - #{$y}) 0 0;
         border-color: $color4 transparent transparent transparent;
+        .home__block03 &{
+          border-color: #000000 transparent transparent transparent;
+        }
       }
       &:after{
         bottom: #{$y};
         right: #{$y};
         border-width: 0 0 calc(#{$x} - #{$y}) calc(#{$x} - #{$y});
         border-color: transparent transparent $color4 transparent;
+        .home__block03 &{
+          border-color: transparent transparent #000000 transparent;
+        }
       }
     }
   }

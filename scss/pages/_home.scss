@@ -84,4 +84,18 @@
       }
     }
   }
+  &__block03{
+    background-color: $color1;
+    &__column{
+
+    }
+    &__box1{
+      &__title{
+        @extend .fz-22;
+        font-family: $font-Verdana-Bold;
+        line-height: (33.7/22);
+        color: #ffffff !important;
+      }
+    }
+  }
 }
