@@ -1,10 +1,543 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Thi Thử THPT - Trang chủ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1616643797">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js"></script>
 </head>
-<body>
+<body class="isHome">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2428809380682169"
+     logged_in_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi"
+     logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
+</div>
+<script>
+  defer(function() {
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v5.0'
+      });
+    };
 
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 5000);
+</script><section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+    <div class="uk-background-norepeat uk-background-cover" uk-height-viewport="offset-bottom: true" data-src="images/bg01.png" uk-img>
+        <div class="uk-container uk-container-small">
+            <div class="uk-text-center mb-20 mb-38-m">
+                <img src="images/logo1.png" alt="">
+            </div>
+            <div class="uk-child-width-1-2@m uk-flex-between@m" uk-grid>
+                <div class="uk-width-expand">
+                    <div class="uk-flex-center mb-20 mb-25-m" uk-grid>
+                        <div class="uk-width-2-3 uk-width-3-5@m">
+                            <div class="uk-text-center">
+                                <img src="images/_Image_.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-flex-center uk-margin-remove-top" uk-grid>
+                        <div class="uk-width-auto">
+                            <ul class="uk-list uk-margin-remove home__block04__list">
+                                <li>Đề thi thử THPT môn Toán</li>
+                                <li>Đề thi thử THPT môn Vật Lý</li>
+                                <li>Đề thi thử THPT môn Hoá Học</li>
+                                <li>Đề thi thử THPT môn Sinh Học</li>
+                                <li>Đề thi thử THPT môn Anh Văn</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-text-center">
+                        <img src="images/bg02.png" alt="">
+                    </div>
+                </div>
+                <div class="uk-width-2-5@m">
+                    <div class="uk-section-xsmall uk-padding-remove-top">
+                        <div class="uk-position-relative home__block04__box2">
+                            <div class="uk-card uk-card-default uk-card-body home__block04__box1">
+                                <form>
+                                    <fieldset class="uk-fieldset">
+                                        <legend class="uk-legend uk-text-center home__block04__box1__title">ĐĂNG KÝ THI THỬ</legend>
+                                        <div class="uk-margin-small">
+                                            <input class="uk-input home__block04__box1__input" type="text" placeholder="Họ và tên">
+                                        </div>
+                                        <div class="uk-margin-small">
+                                            <input class="uk-input home__block04__box1__input" type="text" placeholder="Điện thoại">
+                                        </div>
+                                        <div class="uk-margin-small">
+                                            <input class="uk-input home__block04__box1__input" type="text" placeholder="Email">
+                                        </div>
+                                        <div class="uk-margin-small">
+                                            <input class="uk-input home__block04__box1__input" type="text" placeholder="Tỉnh / Thành phố">
+                                        </div>
+                                        <div class="uk-margin-small">
+                                            <label class="uk-form-label home__block04__box1__label" for="form-stacked-text">Môn học đăng ký thi thử</label>
+                                            <div class="uk-form-controls">
+                                                <div class="uk-grid-10 uk-child-width-1-3 uk-grid">
+                                                    <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Toán</span></label>
+                                                    <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Vật Lý</span></label>
+                                                    <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Hoá Học</span></label>
+                                                    <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Sinh Học</span></label>
+                                                    <label><input class="uk-checkbox" type="checkbox"> <span class="home__block04__box1__txt">Văn</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-text-center">
+                                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--ĐỀ THI DO THÂY CÔ TRƯỜNGCHUYÊN VĨNH PHÚC - VĨNH PHÚC BIÊN SOẠN-->
+    <div class="uk-section-small home__block03 uk-light">
+        <div class="uk-container">
+            <div class="mb-20 mb-47-m">
+                <h2 class="uk-h2 home__title uk-margin-remove uk-text-center uk-text-uppercase">ĐỀ THI DO THÂY CÔ TRƯỜNG
+                    <br class="uk-visible@m"> CHUYÊN VĨNH PHÚC - VĨNH PHÚC BIÊN SOẠN</h2>
+            </div>
+            <div class="uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-5@m uk-flex-center uk-grid-small uk-grid-60-m" uk-grid>
+                <div class="home__block03__column">
+                    <div class="uk-text-center home__block03__box1">
+                        <div class="mb-5">
+                            <div class="uk-cover-container uk-display-inline-block uk-border-circle">
+                                <img src="images/monhoc/img1.png" alt="" uk-cover>
+                                <canvas width="166" height="166"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-uppercase mb-9 home__block03__box1__title">TOÁN</div>
+                        <div>
+                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ VÀO THI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__block03__column">
+                    <div class="uk-text-center home__block03__box1">
+                        <div class="mb-5">
+                            <div class="uk-cover-container uk-display-inline-block uk-border-circle">
+                                <img src="images/monhoc/img2.png" alt="" uk-cover>
+                                <canvas width="166" height="166"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-uppercase mb-9 home__block03__box1__title">VẬT LÝ</div>
+                        <div>
+                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ VÀO THI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__block03__column">
+                    <div class="uk-text-center home__block03__box1">
+                        <div class="mb-5">
+                            <div class="uk-cover-container uk-display-inline-block uk-border-circle">
+                                <img src="images/monhoc/img3.png" alt="" uk-cover>
+                                <canvas width="166" height="166"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-uppercase mb-9 home__block03__box1__title">HOÁ HỌC</div>
+                        <div>
+                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ VÀO THI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__block03__column">
+                    <div class="uk-text-center home__block03__box1">
+                        <div class="mb-5">
+                            <div class="uk-cover-container uk-display-inline-block uk-border-circle">
+                                <img src="images/monhoc/img4.png" alt="" uk-cover>
+                                <canvas width="166" height="166"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-uppercase mb-9 home__block03__box1__title">SINH HỌC</div>
+                        <div>
+                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ VÀO THI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__block03__column">
+                    <div class="uk-text-center home__block03__box1">
+                        <div class="mb-5">
+                            <div class="uk-cover-container uk-display-inline-block uk-border-circle">
+                                <img src="images/monhoc/img5.png" alt="" uk-cover>
+                                <canvas width="166" height="166"></canvas>
+                            </div>
+                        </div>
+                        <div class="uk-text-uppercase mb-9 home__block03__box1__title">ANH VĂN</div>
+                        <div>
+                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ VÀO THI</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ĐỀ THI DO THÂY CÔ TRƯỜNGCHUYÊN VĨNH PHÚC - VĨNH PHÚC BIÊN SOẠN-->
+
+    <!--CON SỐ ẤN TƯỢNG VỀ ĐẠI HỌC FPT-->
+    <div class="home__block02 uk-background-norepeat uk-light uk-position-relative uk-background-cover uk-background-center-center" data-src="images/ARTS1218.jpg" uk-img>
+        <div class="uk-position-cover uk-overlay uk-overlay-primary"></div>
+        <div class="uk-position-relative uk-position-z-index uk-section">
+            <div class="uk-container uk-container-small">
+                <div class="mb-20 mb-60-m">
+                    <h2 class="uk-h2 home__title uk-margin-remove uk-text-center uk-text-uppercase">CON SỐ ẤN TƯỢNG VỀ ĐẠI HỌC FPT</h2>
+                </div>
+                <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small uk-grid-62-m" uk-grid>
+                    <div>
+                        <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                            <canvas width="300" height="300"></canvas>
+                            <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                                <div>
+                                    <div class="home__block02__box1__txt1">100%</div>
+                                    <div class="home__block02__box1__txt2">
+                                        SINH VIÊN <br> <span>LÀM VIỆC THỰC TẾ</span> <br> TỪ NĂM THỨ 3
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                            <canvas width="300" height="300"></canvas>
+                            <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                                <div>
+                                    <div class="home__block02__box1__txt1">100%</div>
+                                    <div class="home__block02__box1__txt2">
+                                        CÓ CƠ HỘI <br> TRẢI NGHIỆM <br> <span>HỌC KỲ Ở NƯỚC NGOÀI</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                            <canvas width="300" height="300"></canvas>
+                            <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                                <div>
+                                    <div class="home__block02__box1__txt1">100%</div>
+                                    <div class="home__block02__box1__txt2">
+                                        SINH VIÊN <br> <span>HỌC TẬP BẰNG <br> TIẾNG ANH</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="home__block02__box1 uk-cover-container uk-border-rounded uk-text-center uk-overflow-hidden">
+                            <canvas width="300" height="300"></canvas>
+                            <div class="uk-position-cover uk-padding-small uk-flex uk-flex-center uk-flex-middle">
+                                <div>
+                                    <div class="home__block02__box1__txt1">100%</div>
+                                    <div class="home__block02__box1__txt2">
+                                        SINH VIÊN ĐƯỢC <br> <span>NHÀ <br> TUYỂN DỤNG <br> CHÀO ĐÓN</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/CON SỐ ẤN TƯỢNG VỀ ĐẠI HỌC FPT-->
+
+    <!--ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY-->
+    <div class="uk-section-small block01 uk-light" uk-scrollspy="cls: uk-animation-slide-bottom-small; target: .animation; delay: 300; repeat: false">
+        <div class="uk-container uk-container-small">
+            <h2 class="block01__title mb-20 mb-27-m uk-h2 uk-text-center uk-text-uppercase"><span>ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY</span></h2>
+            <div class="mb-20 mb-26-m uk-flex-center" uk-grid>
+                <div class="uk-width-3-5@m">
+                    <div class="uk-padding-small block01__boxCountdown uk-border-rounded">
+                        <div class="uk-grid-small uk-child-width-auto uk-flex-center" uk-grid uk-countdown="date: 2021-04-01T10:43:17.000000+07:00">
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-days"></div>
+                                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                            </div>
+                            <div class="uk-countdown-separator">:</div>
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-hours"></div>
+                                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                            </div>
+                            <div class="uk-countdown-separator">:</div>
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-minutes"></div>
+                                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                            </div>
+                            <div class="uk-countdown-separator">:</div>
+                            <div>
+                                <div class="uk-countdown-number uk-countdown-seconds"></div>
+                                <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="uk-grid-small mb-20 mb-36-m" uk-grid>
+                <div class="uk-width-1-3@s">
+                    <input class="uk-input uk-border-pill block01__input" type="text" placeholder="Họ và tên*">
+                </div>
+                <div class="uk-width-1-3@s">
+                    <input class="uk-input uk-border-pill block01__input" type="text" placeholder="Số điện thoại*">
+                </div>
+                <div class="uk-width-1-3@s">
+                    <input class="uk-input uk-border-pill block01__input" type="text" placeholder="Trường THPT / Đại Học ">
+                </div>
+                <div class="uk-width-1-3@s">
+                    <input class="uk-input uk-border-pill block01__input" type="text" placeholder="Ngày sinh">
+                </div>
+                <div class="uk-width-1-3@s">
+                    <input class="uk-input uk-border-pill block01__input" type="text" placeholder="Email">
+                </div>
+                <div class="uk-width-1-3@s">
+                    <input class="uk-input uk-border-pill block01__input" type="text" placeholder="Tỉnh / Thành phố">
+                </div>
+                <div class="uk-width-1-1">
+                    <input class="uk-input uk-border-pill block01__input" type="text" placeholder="Link Facebook của bạn">
+                </div>
+            </form>
+            <div class="uk-child-width-1-1 uk-grid-match uk-grid-20 mb-20 mb-40-m" uk-grid>
+                <div>
+                    <div class="uk-grid-match uk-flex-middle uk-grid-small uk-grid-30-m" uk-grid>
+                        <div class="uk-width-auto@s">
+                            <span class="block01__lablel">Đăng ký* </span>
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid-small uk-child-width-auto uk-grid">
+                                <label><input class="uk-radio" type="radio" name="radio2-dky" checked> <span class="block01__txtRadio">Tư vấn</span></label>
+                                <label><input class="uk-radio" type="radio" name="radio2-dky"> <span class="block01__txtRadio">Xét tuyển</span></label>
+                                <label><input class="uk-radio" type="radio" name="radio2-dky"> <span class="block01__txtRadio">Thi học bổng</span></label>
+                                <label><input class="uk-radio" type="radio" name="radio2-dky"> <span class="block01__txtRadio">Xét học bổng</span></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-grid-match uk-flex-middle uk-grid-small uk-grid-30-m" uk-grid>
+                        <div class="uk-width-auto@s">
+                            <span class="block01__lablel">Nơi đăng ký sơ tuyển:</span>
+                        </div>
+                        <div class="uk-width-expand">
+                            <div class="uk-grid-small uk-child-width-auto uk-grid">
+                                <label><input class="uk-radio" type="radio" name="radio2" checked> <span class="block01__txtRadio">Hà Nội</span></label>
+                                <label><input class="uk-radio" type="radio" name="radio2"> <span class="block01__txtRadio">Tp.HCM</span></label>
+                                <label><input class="uk-radio" type="radio" name="radio2"> <span class="block01__txtRadio">Cần Thơ</span></label>
+                                <label><input class="uk-radio" type="radio" name="radio2"> <span class="block01__txtRadio">Đà Nẵng</span></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-text-center">
+                <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                    <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
+                </div>
+            </div>
+        </div>
+    </div><!--/ĐĂNG KÝ XÉT TUYỂN ĐẠI HỌC FPT NGAY-->
+
+    <!--GIẢI THƯỞNG, DANH HIỆU ĐẠI HỌC FPT ĐẠT ĐƯỢC-->
+    <div class="uk-section-small home__block01">
+        <div class="uk-container">
+            <div class="mb-20 mb-51-m">
+                <h2 class="uk-h2 home__title uk-margin-remove uk-text-center uk-text-uppercase">GIẢI THƯỞNG, DANH HIỆU ĐẠI HỌC FPT ĐẠT ĐƯỢC</h2>
+            </div>
+            <div class="home__block01__box2" uk-toggle="cls: uk-overflow-auto; mode: media; media: (max-width: 959px)">
+                <div uk-toggle="cls: uk-flex-nowrap; mode: media; media: (max-width: 959px)" class="uk-grid-small uk-grid-30-m uk-child-width-1-5@m uk-grid-match" uk-grid>
+                    <div>
+                        <div class="uk-flex uk-flex-column uk-text-center home__block01__box1">
+                            <div class="mb-15">
+                                <div class="home__block01__box1__img uk-flex uk-flex-center uk-flex-middle">
+                                    <img class="uk-responsive-height uk-responsive-width" src="images/box1/img1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="uk-flex uk-flex-center uk-flex-middle mb-10" style="min-height: 49px;">
+                                <div class="home__block01__box1__title fz1">TOP 200</div>
+                            </div>
+                            <div class="uk-flex-1">
+                                <span class="home__block01__box1__desc">Troờng Đại học đào tạo
+Quản trị Kinh doanhtốt nhất thế giới(Eduinversal xếp hạng)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-flex uk-flex-column uk-text-center home__block01__box1">
+                            <div class="mb-15">
+                                <div class="home__block01__box1__img uk-flex uk-flex-center uk-flex-middle">
+                                    <img class="uk-responsive-height uk-responsive-width" src="images/box1/img2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="uk-flex uk-flex-center uk-flex-middle mb-10" style="min-height: 49px;">
+                                <div class="home__block01__box1__title fz2">CHẤT LƯỢNGGIÁO DỤC QUỐC GIA</div>
+                            </div>
+                            <div class="uk-flex-1">
+                                <span class="home__block01__box1__desc">Đạt kiểm định chất lượng
+Đại học FPT đoợc tự chủ
+trong mở ngành và
+liên kết đào tạo</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-flex uk-flex-column uk-text-center home__block01__box1">
+                            <div class="mb-15">
+                                <div class="home__block01__box1__img uk-flex uk-flex-center uk-flex-middle">
+                                    <img class="uk-responsive-height uk-responsive-width" src="images/box1/img3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="uk-flex uk-flex-center uk-flex-middle mb-10" style="min-height: 49px;">
+                                <div class="home__block01__box1__title fz1">Sao Khuê</div>
+                            </div>
+                            <div class="uk-flex-1">
+                                <span class="home__block01__box1__desc">Nhiều năm liền đạt
+giải thưởng Sao Khuê
+uy tín cho đơn vị đào tạoCNTT hệ Chính quy xuất sắc</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-flex uk-flex-column uk-text-center home__block01__box1">
+                            <div class="mb-15">
+                                <div class="home__block01__box1__img uk-flex uk-flex-center uk-flex-middle">
+                                    <img class="uk-responsive-height uk-responsive-width" src="images/box1/img4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="uk-flex uk-flex-center uk-flex-middle mb-10" style="min-height: 49px;">
+                                <div class="home__block01__box1__title fz2">ASOCIOAward 2018</div>
+                            </div>
+                            <div class="uk-flex-1">
+                                <span class="home__block01__box1__desc">Troờng Đại học đào tạo
+Công nghệ Thông tin
+xuất sắc tại Châu Á</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-flex uk-flex-column uk-text-center home__block01__box1">
+                            <div class="mb-15">
+                                <div class="home__block01__box1__img uk-flex uk-flex-center uk-flex-middle">
+                                    <img class="uk-responsive-height uk-responsive-width" src="images/box1/img5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="uk-flex uk-flex-center uk-flex-middle mb-10" style="min-height: 49px;">
+                                <div class="home__block01__box1__title fz3">TOP 2</div>
+                            </div>
+                            <div class="uk-flex-1">
+                                <span class="home__block01__box1__desc">Troờng Đại học đào tạo
+Quản trị Kinh doanhtốt nhất Việt Nam(Eduniversal xếp hạng
+số 1 năm 2020)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/GIẢI THƯỞNG, DANH HIỆU ĐẠI HỌC FPT ĐẠT ĐƯỢC-->
+
+    <!--top50-->
+    <div uk-scrollspy="cls: uk-animation-slide-bottom; target: .animation; delay: 300; repeat: true" class="uk-section uk-flex uk-flex-bottom uk-padding-remove-bottom uk-overflow-hidden uk-background-norepeat uk-background-top-center uk-background-image@m" style="min-height: 442px" data-src="images/bg1.png" uk-img>
+        <div class="uk-width-1-1">
+            <div class="uk-container uk-container-small">
+                <div class="uk-flex-bottom" uk-grid>
+                    <div class="uk-width-expand">
+                        <div class="uk-section-small uk-text-center">
+                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@m">
+                        <div class="uk-flex-center" uk-grid>
+                            <div class="uk-width-3-5 uk-width-1-1@m">
+                                <div class="uk-position-relative">
+                                    <img class="animation" uk-toggle="cls: uk-position-bottom; mode: media; media: @m" style="bottom: -89px;" src="images/Layer1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/top50-->
+
+    <div class="footer uk-section-xsmall">
+        <div class="uk-container uk-container-small">
+            <div class="uk-flex-middle uk-child-width-auto uk-flex-between uk-grid-10" uk-grid uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div; delay: 300; repeat: false">
+                <div>
+                    <div class="uk-flex-middle uk-grid-5 uk-grid-10-m" uk-grid>
+                        <div class="uk-width-auto">
+                            <a href="" class="uk-icon-button footer__icon" uk-icon="icon: mail; ratio: 0.9"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <span class="footer__txt">daihocfpt@fpt.edu.vn</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="" class="uk-button footer__btn uk-button-default uk-button-large uk-border-pill">
+                        <div class="uk-flex-middle uk-grid-5 uk-grid-10-m" uk-grid>
+                            <div class="uk-width-auto">
+                                <span class="uk-icon-button footer__icon" uk-icon="icon: receiver; ratio: 0.9"></span>
+                            </div>
+                            <div class="uk-width-expand">
+                                <span class="footer__txt">024/028 73001866</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <div class="uk-flex-middle uk-grid-5 uk-grid-10-m" uk-grid>
+                        <div class="uk-width-auto">
+                            <a href="" class="uk-icon-button footer__icon" uk-icon="icon: facebook; ratio: 0.9"></a>
+                        </div>
+                        <div class="uk-width-expand">
+                            <span class="footer__txt">FPT University</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
