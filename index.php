@@ -62,9 +62,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="uk-text-center">
-                                        <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
-                                            <button type="button" class="uk-button block01__btnSubmit uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
+                                    <div class="uk-child-width-auto uk-grid-5" uk-grid>
+                                        <div>
+                                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                                <button type="button" class="uk-button block01__btnSubmit block01__btnSubmit--c1 uk-button-secondary uk-border-rounded">ĐĂNG KÝ NGAY</button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-position-relative block01__btnSubmit__box1 uk-display-inline-block animation">
+                                                <button type="button" class="uk-button block01__btnSubmit block01__btnSubmit--c1 uk-button-secondary uk-border-rounded">ĐĂNG NHẬP</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </fieldset>
